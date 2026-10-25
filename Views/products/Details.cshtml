@@ -1,0 +1,21 @@
+﻿@model ProductCatalog.Models.Product
+@{
+	ViewData["Title"] = "Product Details";
+}
+<div class="detail">
+	<dl>
+		<dt>Id</dt>
+		<dd>@Model.Id</dd>
+		<dt>Name</dt>
+		<dd>@Model.Name</dd>
+		<dt>Description</dt>
+		<dd>@Model.Description</dd>
+		<dt>Price</dt>
+		<dd>@Model.Price</dd>
+	</dl>
+</div>
+<button>
+	<a asp-controller="Products" asp-action="Index">
+		Back to Products
+	</a>
+</button>

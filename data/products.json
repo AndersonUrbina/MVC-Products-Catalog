@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Name": "XVOX Controller",
+        "Description": "White Robotic",
+        "Price": 25
+    },
+    {
+        "Id": 2,
+        "Name": "LG Monitor",
+        "Description": "24 inches, LCD, 1080p",
+        "Price": 80
+    },
+    {
+        "Id": 3,
+        "Name": "Rezer Wired Keyboard",
+        "Description": "Includes an adjustable green light.",
+        "Price": 135
+    },
+    {
+        "Id": 4,
+        "Name": "Wired Mouse stealseries",
+        "Description": "Rivan 650",
+        "Price": 125
+    }
+]

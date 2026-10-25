@@ -1,0 +1,26 @@
+﻿@model ProductCatalog.Models.Product
+@{
+	ViewData["Title"] = "Add Product";
+}
+<div class="main-form">
+	<h1>Add a product</h1>
+	<form asp-controller="Products" asp-action="Create" method="POST" class="form">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" asp-for="Name">
+		<br>
+		<span asp-validation-for="Name"></span>
+		<br>
+		<label for="description">Description:</label><br>
+		<textarea asp-for="Description" rows="4" cols="50"
+				  placeholder="Product description here!"></textarea>
+		<br>
+		<span asp-validation-for="Description"></span>
+		<br>
+		<label>Price:</label><br>
+		<input type="text" asp-for="Price">
+		<br>
+		<span asp-validation-for="Price"></span>
+		<br>
+		<button type="submit">Add Product</button>
+	</form>
+</div>
